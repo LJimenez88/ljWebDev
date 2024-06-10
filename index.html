@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisandro Jimenez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="./asssets/backgroundimg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="desktop">
+        <div class="folder" id="folder1" draggable="true">
+            <img src="./asssets/ShareX_FYaD4nnaH7.png" alt="Folder Icon">
+            <p>About Me</p>
+        </div>
+        <div class="folder" id="folder2" draggable="true">
+            <img src="./asssets/linkedinLogo.webp" alt="Folder Icon">
+            <p>LinkedIn</p>
+            <a id="linkedin-link" href="https://www.linkedin.com/in/lisandrojimenez" target="_blank"></a>
+        </div>
+        <div class="folder" id="folder3" draggable="true">
+            <img src="./asssets/download-icon-png-4392.png" alt="Folder Icon">
+            <p>Resume Download</p>
+            <a id="resume-download" href="./asssets/_Resume_.pdf" download="Resume_Lisandro_Jimenez.pdf"></a>
+        </div>
+        <div class="folder" id="folder4" draggable="true">
+            <img src="./asssets/occord.png" alt="Folder Icon">
+            <p>Occord Project</p>
+            <a id="occord-project" href="https://www.occord.org" target="_blank"></a>
+        </div>
+        <div class="folder" id="folder5" draggable="true">
+            <img src="./asssets/comingSoonimg.jpg" alt="Folder Icon">
+            <p>SMCPD Project</p>
+        </div>
+    </div>
+
+    <div class="info">
+        Icons are interactive! Move them around!!!
+    </div>
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body">
+                <!--content will be here-->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
